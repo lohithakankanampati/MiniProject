@@ -1,0 +1,16 @@
+{
+  "model_file": "logreg_chd.joblib",
+  "scaler_file": "scaler.joblib",
+  "feature_names": [
+    "age",
+    "Sex_male",
+    "cigsPerDay",
+    "totChol",
+    "sysBP",
+    "glucose"
+  ],
+  "target_mapping": {
+    "0": "No TenYearCHD",
+    "1": "TenYearCHD"
+  }
+}
